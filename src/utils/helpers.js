@@ -1,5 +1,5 @@
 /**
- * Extract initials from a full name (e.g., "Alex Morgan" -> "AM")
+ * Extract initials from a full name (e.g., "Md. Mahmudur Rahman" -> "AM")
  */
 export function getInitials(name) {
   if (!name) return 'DEV';
