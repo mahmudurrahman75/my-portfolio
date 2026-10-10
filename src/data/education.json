@@ -1,0 +1,25 @@
+[
+  {
+    "id": "edu-1",
+    "institution": "State University of California",
+    "degree": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "startDate": "2019",
+    "endDate": "2023",
+    "location": "California, USA",
+    "gpa": "3.85 / 4.0",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "Computer Systems & Architecture",
+      "Database Systems",
+      "Operating Systems",
+      "Software Engineering",
+      "Computer Networks"
+    ],
+    "highlights": [
+      "Dean's Honor List for 6 consecutive semesters",
+      "Undergraduate Teaching Assistant for Intro to Object-Oriented Programming",
+      "Senior Capstone Project: Real-time Distributed File Synchronizer"
+    ]
+  }
+]

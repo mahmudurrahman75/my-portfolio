@@ -1,0 +1,19 @@
+{
+  "siteTitle": "Alex Morgan | Software Engineer Portfolio",
+  "websiteDescription": "Portfolio of Alex Morgan, a Software Engineer specializing in modern frontend systems, backend services, and cloud architecture.",
+  "defaultSeoTitle": "Alex Morgan — Software Engineer",
+  "defaultSeoDescription": "Explore software engineering projects, technical skills, career journey, and contact information for Alex Morgan.",
+  "copyrightName": "Alex Morgan",
+  "navLinks": [
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "education", "label": "Education" },
+    { "id": "achievements", "label": "Achievements" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "theme": {
+    "defaultAccent": "#6EA8FE"
+  }
+}

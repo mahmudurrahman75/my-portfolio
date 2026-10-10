@@ -1,0 +1,26 @@
+[
+  {
+    "id": "github",
+    "label": "GitHub",
+    "url": "https://github.com",
+    "icon": "Github"
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "url": "https://linkedin.com",
+    "icon": "Linkedin"
+  },
+  {
+    "id": "email",
+    "label": "Email",
+    "url": "mailto:alex.morgan.dev@example.com",
+    "icon": "Mail"
+  },
+  {
+    "id": "twitter",
+    "label": "X / Twitter",
+    "url": "https://twitter.com",
+    "icon": "Twitter"
+  }
+]

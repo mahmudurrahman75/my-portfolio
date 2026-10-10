@@ -1,0 +1,19 @@
+{
+  "fullName": "Alex Morgan",
+  "title": "Software Engineer",
+  "tagline": "Building resilient, performant, and elegant digital systems.",
+  "location": "San Francisco, CA (Open to Remote)",
+  "profileImage": "/images/profile.svg",
+  "availabilityStatus": "Available for full-time opportunities",
+  "yearsOfExperience": "3+ years",
+  "heroIntroduction": "I craft reliable full-stack applications, scalable backend microservices, and interactive web experiences with a focus on code quality and user delight.",
+  "primaryCta": {
+    "text": "View Projects",
+    "href": "#projects"
+  },
+  "secondaryCta": {
+    "text": "Get in Touch",
+    "href": "#contact"
+  },
+  "resumePath": "/documents/resume.pdf"
+}

@@ -1,0 +1,12 @@
+{
+  "heading": "Get in Touch",
+  "invitationMessage": "Whether you have a software engineering opportunity, an interesting open-source initiative, or just want to connect over distributed systems and frontend architecture, my inbox is always open.",
+  "email": "alex.morgan.dev@example.com",
+  "location": "San Francisco, CA (Open to Remote / Relocation)",
+  "availabilityMessage": "Currently open to full-time Software Engineer positions & select contract roles.",
+  "buttonLabel": "Send an Email",
+  "secondaryAction": {
+    "label": "Connect on LinkedIn",
+    "url": "https://linkedin.com"
+  }
+}

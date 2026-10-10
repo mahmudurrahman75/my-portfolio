@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141B2D" />
+      <stop offset="100%" stop-color="#0B0E17" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EA8FE" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(110, 168, 254, 0.3)" />
+      <stop offset="100%" stop-color="rgba(139, 92, 246, 0.05)" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="400" rx="32" fill="url(#bgGrad)" stroke="#273041" stroke-width="2"/>
+  <!-- Ambient Glow -->
+  <circle cx="200" cy="180" r="140" fill="url(#avatarGlow)"/>
+  
+  <!-- Subtle Grid Pattern in background -->
+  <g stroke="#1F2839" stroke-width="1" opacity="0.4">
+    <line x1="60" y1="0" x2="60" y2="400"/>
+    <line x1="120" y1="0" x2="120" y2="400"/>
+    <line x1="180" y1="0" x2="180" y2="400"/>
+    <line x1="240" y1="0" x2="240" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="360" y1="0" x2="360" y2="400"/>
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+    <line x1="0" y1="240" x2="400" y2="240"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+  </g>
+
+  <!-- Stylized Software Engineer Avatar Silhouette & Monogram -->
+  <circle cx="200" cy="150" r="70" fill="#182032" stroke="url(#accentGrad)" stroke-width="3"/>
+  <path d="M120 330 C120 250, 280 250, 280 330 Z" fill="#182032" stroke="url(#accentGrad)" stroke-width="3"/>
+
+  <!-- Code brackets emblem on chest -->
+  <path d="M185 285 L175 295 L185 305 M215 285 L225 295 L215 305 M203 280 L197 310" 
+        stroke="#6EA8FE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Tech Head / Initials -->
+  <text x="200" y="162" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="44" font-weight="700" fill="#F4F6FA" letter-spacing="2">AM</text>
+  
+  <!-- Floating tech status badge -->
+  <g transform="translate(140, 345)">
+    <rect width="120" height="28" rx="14" fill="#0E131F" stroke="#273041" stroke-width="1.5"/>
+    <circle cx="16" cy="14" r="4" fill="#10B981"/>
+    <text x="28" y="18" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#9DA8BA">ENGINEER</text>
+  </g>
+</svg>

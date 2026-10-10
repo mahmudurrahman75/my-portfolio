@@ -1,0 +1,37 @@
+{
+  "heading": "About Me",
+  "biography": [
+    "I am a passionate Software Engineer who thrives at the intersection of robust engineering systems and intuitive product design. With a rigorous background in Computer Science and hands-on experience across the entire development lifecycle, I enjoy turning complex problem statements into clean, maintainable software.",
+    "My journey began with low-level systems programming and evolved into architecting distributed services and reactive web applications. I care deeply about developer experience, clean code principles, accessibility, and high runtime performance."
+  ],
+  "professionalInterests": [
+    "Distributed Systems & Cloud Architecture",
+    "High-Performance Web Applications & React",
+    "Developer Tooling & Automation",
+    "API Design & Domain-Driven Development"
+  ],
+  "careerGoals": "To design and scale mission-critical software products within high-impact engineering teams, while fostering engineering excellence and inclusive technical mentorship.",
+  "coreStrengths": [
+    {
+      "title": "Full-Stack Proficiency",
+      "description": "Seamlessly bridging typed modern frontends with secure, scalable backend architectures."
+    },
+    {
+      "title": "Clean Architecture",
+      "description": "Committed to modular codebases, test-driven reliability, and maintainable abstractions."
+    },
+    {
+      "title": "Performance Mindset",
+      "description": "Optimizing bundle sizes, database queries, and rendering lifecycles for maximum efficiency."
+    },
+    {
+      "title": "Cross-Functional Collaboration",
+      "description": "Communicating technical trade-offs with clarity to designers, product managers, and peers."
+    }
+  ],
+  "highlights": [
+    { "label": "Code Quality", "value": "100% Type-Safe & Linted" },
+    { "label": "Focus", "value": "Full-Stack Systems" },
+    { "label": "Methodology", "value": "Agile & CI/CD Driven" }
+  ]
+}

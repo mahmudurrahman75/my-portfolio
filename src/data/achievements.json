@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ach-1",
+    "title": "AWS Certified Solutions Architect – Associate",
+    "issuer": "Amazon Web Services (AWS)",
+    "date": "2024",
+    "type": "Certification",
+    "description": "Validated expertise in designing distributed, cost-optimized, and resilient cloud systems across AWS core infrastructure.",
+    "credentialUrl": "https://aws.amazon.com/verification"
+  },
+  {
+    "id": "ach-2",
+    "title": "1st Place Winner – HackSprint Collegiate Hackathon",
+    "issuer": "Tech Innovation Hub",
+    "date": "2023",
+    "type": "Hackathon Award",
+    "description": "Built an emergency response coordination dashboard using WebSockets and OpenStreetMap API within 36 hours among 140+ participating teams.",
+    "credentialUrl": ""
+  },
+  {
+    "id": "ach-3",
+    "title": "Dean’s Award for Academic Excellence",
+    "issuer": "School of Computer Science",
+    "date": "2022",
+    "type": "Honor",
+    "description": "Recognized among the top 5% of the graduating cohort for consistent academic distinction and leadership.",
+    "credentialUrl": ""
+  },
+  {
+    "id": "ach-4",
+    "title": "Meta Front-End Developer Professional Certificate",
+    "issuer": "Meta / Coursera",
+    "date": "2022",
+    "type": "Certification",
+    "description": "Comprehensive program covering modern React patterns, testing, performance profiling, and UI/UX engineering fundamentals.",
+    "credentialUrl": "https://coursera.org/verify"
+  }
+]

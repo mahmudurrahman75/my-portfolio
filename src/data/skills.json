@@ -1,0 +1,73 @@
+[
+  {
+    "category": "Programming Languages",
+    "description": "Core languages utilized for production web services and scripting.",
+    "skills": [
+      { "name": "TypeScript", "featured": true, "icon": "FileCode" },
+      { "name": "JavaScript (ES6+)", "featured": true, "icon": "Code" },
+      { "name": "Python", "featured": true, "icon": "Terminal" },
+      { "name": "Java", "featured": false, "icon": "Coffee" },
+      { "name": "C++", "featured": false, "icon": "Cpu" },
+      { "name": "SQL", "featured": true, "icon": "Database" }
+    ]
+  },
+  {
+    "category": "Frontend Development",
+    "description": "Component architecture, user interfaces, state, and performance.",
+    "skills": [
+      { "name": "React", "featured": true, "icon": "Atom" },
+      { "name": "Next.js", "featured": true, "icon": "Layers" },
+      { "name": "HTML5 & Semantic Markup", "featured": false, "icon": "Code2" },
+      { "name": "CSS3 / Modern Styling", "featured": true, "icon": "Palette" },
+      { "name": "Vite", "featured": true, "icon": "Zap" },
+      { "name": "Web Accessibility (WCAG)", "featured": false, "icon": "Eye" },
+      { "name": "State Management (Zustand/Redux)", "featured": false, "icon": "Boxes" }
+    ]
+  },
+  {
+    "category": "Backend Development",
+    "description": "APIs, microservices, authentication, and server-side runtimes.",
+    "skills": [
+      { "name": "Node.js", "featured": true, "icon": "Server" },
+      { "name": "Express.js", "featured": false, "icon": "Network" },
+      { "name": "RESTful API Architecture", "featured": true, "icon": "Globe" },
+      { "name": "GraphQL", "featured": false, "icon": "Share2" },
+      { "name": "FastAPI", "featured": false, "icon": "Zap" },
+      { "name": "Authentication & JWT", "featured": false, "icon": "ShieldCheck" }
+    ]
+  },
+  {
+    "category": "Databases & Storage",
+    "description": "Relational and document storage, caching, and query optimization.",
+    "skills": [
+      { "name": "PostgreSQL", "featured": true, "icon": "Database" },
+      { "name": "MongoDB", "featured": false, "icon": "Database" },
+      { "name": "Redis (Caching)", "featured": true, "icon": "Cpu" },
+      { "name": "Prisma ORM", "featured": false, "icon": "Layers" },
+      { "name": "MySQL", "featured": false, "icon": "Database" }
+    ]
+  },
+  {
+    "category": "Tools & DevOps",
+    "description": "Containerization, cloud infrastructure, version control, and CI/CD.",
+    "skills": [
+      { "name": "Git & GitHub", "featured": true, "icon": "GitBranch" },
+      { "name": "Docker", "featured": true, "icon": "Box" },
+      { "name": "AWS (S3, EC2, Lambda)", "featured": false, "icon": "Cloud" },
+      { "name": "CI/CD (GitHub Actions)", "featured": true, "icon": "Workflow" },
+      { "name": "Linux / Bash", "featured": false, "icon": "Terminal" },
+      { "name": "Jest & Vitest", "featured": false, "icon": "CheckCircle" },
+      { "name": "Postman", "featured": false, "icon": "Send" }
+    ]
+  },
+  {
+    "category": "Computer Science Core",
+    "description": "Foundational computing principles driving problem solving.",
+    "skills": [
+      { "name": "Data Structures & Algorithms", "featured": true, "icon": "Binary" },
+      { "name": "Object-Oriented Design", "featured": false, "icon": "Component" },
+      { "name": "System Design & Architecture", "featured": true, "icon": "Network" },
+      { "name": "Operating Systems & Concurrency", "featured": false, "icon": "Cpu" }
+    ]
+  }
+]
