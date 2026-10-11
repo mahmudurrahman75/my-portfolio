@@ -3,6 +3,7 @@ import Container from '../layout/Container';
 import SectionHeading from '../common/SectionHeading';
 import { DynamicIcon } from '../../utils/icons';
 import aboutData from '../../data/about.json';
+import '../../styles/about.css';
 
 export default function About() {
   if (!aboutData) return null;
@@ -57,19 +58,23 @@ export default function About() {
 
           {/* Right: Core Strengths & Interests */}
           <div className="about-right">
-            {coreStrengths && coreStrengths.length > 0 && (
-              <div className="about-strengths-box">
-                {coreStrengths.map((strength, idx) => (
-                  <div key={idx} className="strength-item">
-                    <h3 className="strength-title">
-                      <DynamicIcon name="Sparkles" size={16} />
-                      {strength.title}
-                    </h3>
-                    <p className="strength-desc">{strength.description}</p>
-                  </div>
-                ))}
-              </div>
-            )}
+  <div className="about-image-wrapper reveal-on-scroll delay-1">
+    <img src="/images/mahmud%20photos.jpeg" alt="Mahmudur Rahman" className="about-profile-image" />
+  </div>
+  {coreStrengths && coreStrengths.length > 0 && (
+    <div className="about-strengths-box">
+      {coreStrengths.map((strength, idx) => (
+        <div key={idx} className="strength-item">
+          <h3 className="strength-title">
+            <DynamicIcon name="Sparkles" size={16} />
+            {strength.title}
+          </h3>
+          <p className="strength-desc">{strength.description}</p>
+        </div>
+      ))}
+    </div>
+  )}
+</div>
 
             {professionalInterests && professionalInterests.length > 0 && (
               <div style={{ marginTop: '1.75rem', padding: '1.25rem', backgroundColor: 'var(--color-surface)', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)' }}>
