@@ -7,7 +7,7 @@ import Skills from './components/sections/Skills';
 import Experience from './components/sections/Experience';
 import Entrepreneurship from './components/sections/Entrepreneurship';
 import Projects from './components/sections/Projects';
-import Education from './components/sections/Education';
+
 import Contact from './components/sections/Contact';
 import { useScrollReveal } from './hooks/useScrollReveal';
 
@@ -41,9 +41,7 @@ export default function App() {
           <Projects />
         </div>
         <div className="section-divider" aria-hidden="true" />
-        <div className="reveal-on-scroll">
-          <Education />
-        </div>
+
         <div className="section-divider" aria-hidden="true" />
         <div className="reveal-on-scroll">
           <Contact />
