@@ -1,11 +1,11 @@
 {
   "fullName": "Md. Mahmudur Rahman",
   "title": "Full-Stack Web Developer",
-  "tagline": "Building modern, responsive, scalable, and user-focused web applications with contemporary frontend and backend technologies.",
+  "tagline": "Full‑Stack Web Developer crafting modern, performant applications with JavaScript, React, Next.js, Node, TypeScript, PHP, Laravel, and MySQL.",
   "location": "Mohammadpur, Dhaka, Bangladesh",
   "profileImage": "/images/profile.svg",
   "availabilityStatus": "Available for Web Development & Engineering Opportunities",
-  "heroIntroduction": "I build modern web applications that combine thoughtful user experiences with reliable backend architecture. With experience across React, Next.js, Node.js, PHP, and Laravel, and a background in Civil Engineering and entrepreneurship, I enjoy turning complex ideas into practical digital solutions.",
+  "heroIntroduction": "I design and develop full‑stack web solutions using modern JavaScript/TypeScript frameworks (React, Next.js, Node) and robust PHP/Laravel back‑ends, complemented by SEO expertise and a solid engineering mindset.",
   "primaryCta": {
     "text": "View My Projects",
     "href": "#projects"
