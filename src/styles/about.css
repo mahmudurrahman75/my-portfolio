@@ -1,0 +1,623 @@
+/* ==========================================================================
+   About Section — Premium Animated Design
+   ========================================================================== */
+
+/* ---- Section wrapper ---- */
+.about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ambient floating orbs behind the section */
+.about-ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0;
+  pointer-events: none;
+  animation: orbFloat 18s ease-in-out infinite;
+}
+
+.about-ambient-orb--1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(112, 183, 161, 0.12) 0%, transparent 70%);
+  top: -10%;
+  left: -8%;
+  animation-delay: 0s;
+}
+
+.about-ambient-orb--2 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(29, 102, 112, 0.10) 0%, transparent 70%);
+  bottom: -5%;
+  right: -5%;
+  animation-delay: -6s;
+}
+
+.about-ambient-orb--3 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(112, 183, 161, 0.08) 0%, transparent 70%);
+  top: 40%;
+  right: 20%;
+  animation-delay: -12s;
+}
+
+@keyframes orbFloat {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    opacity: 0.85;
+    transform: translate(30px, -20px) scale(1.1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(-15px, 25px) scale(0.95);
+  }
+  75% {
+    opacity: 0.9;
+    transform: translate(20px, 10px) scale(1.05);
+  }
+}
+
+/* ---- Main grid ---- */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3.5rem;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* ---- Bio text ---- */
+.about-bio-text {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--color-text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.about-bio-text p {
+  position: relative;
+  padding-left: 1rem;
+  border-left: 2px solid transparent;
+  transition: border-color 0.4s ease, color 0.4s ease;
+}
+
+.about-bio-text p:hover {
+  border-left-color: var(--color-accent);
+  color: var(--color-text-primary);
+}
+
+/* ---- Focus / Career Goal ---- */
+.about-focus-text {
+  font-style: italic;
+  color: var(--color-accent);
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, rgba(112, 183, 161, 0.06), rgba(29, 102, 112, 0.04));
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(112, 183, 161, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-focus-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--color-accent-gradient);
+  border-radius: 3px 0 0 3px;
+}
+
+/* ---- Highlights Row (metric cards) ---- */
+.about-highlights-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .about-highlights-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.highlight-card {
+  position: relative;
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-elevated) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  overflow: hidden;
+  cursor: default;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Animated gradient border on hover */
+.highlight-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary), var(--color-accent));
+  background-size: 200% 200%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  animation: gradientShift 4s ease-in-out infinite;
+}
+
+.highlight-card:hover::before {
+  opacity: 1;
+}
+
+.highlight-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px -4px rgba(112, 183, 161, 0.15);
+  background: linear-gradient(135deg, var(--color-surface-elevated) 0%, rgba(112, 183, 161, 0.04) 100%);
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Shine / shimmer sweep */
+.highlight-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(112, 183, 161, 0.06), transparent);
+  transition: none;
+}
+
+.highlight-card:hover::after {
+  animation: shimmerSweep 0.8s ease-out forwards;
+}
+
+@keyframes shimmerSweep {
+  0% { left: -50%; }
+  100% { left: 150%; }
+}
+
+.highlight-label {
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.highlight-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Right column ---- */
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ---- Profile Image ---- */
+.about-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 3/4;
+  margin: 0 auto;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+/* Rotating gradient border ring */
+.about-image-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg,
+    var(--color-accent),
+    var(--color-accent-secondary),
+    transparent,
+    var(--color-accent-secondary),
+    var(--color-accent)
+  );
+  animation: borderRotate 6s linear infinite;
+  z-index: 0;
+}
+
+@keyframes borderRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Glow behind the image */
+.about-image-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 -40px 60px -20px rgba(11, 15, 20, 0.9);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.about-profile-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  border: 3px solid var(--color-bg);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+}
+
+.about-image-wrapper:hover .about-profile-image {
+  transform: scale(1.05);
+}
+
+/* ---- Core Strengths ---- */
+.about-strengths-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.strength-item {
+  position: relative;
+  background: linear-gradient(135deg, var(--color-surface) 0%, rgba(29, 102, 112, 0.03) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  overflow: hidden;
+  cursor: default;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Left accent bar that expands on hover */
+.strength-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--color-accent-gradient);
+  transform: scaleY(0.3);
+  transform-origin: center;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), width 0.4s ease;
+  border-radius: 3px;
+}
+
+.strength-item:hover::before {
+  transform: scaleY(1);
+  width: 4px;
+}
+
+.strength-item:hover {
+  border-color: rgba(112, 183, 161, 0.25);
+  transform: translateX(6px);
+  box-shadow: -4px 0 20px -4px rgba(112, 183, 161, 0.12);
+}
+
+.strength-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.strength-title svg {
+  color: var(--color-accent);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.strength-item:hover .strength-title svg {
+  transform: rotate(15deg) scale(1.15);
+}
+
+.strength-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  transition: color 0.3s ease;
+}
+
+.strength-item:hover .strength-desc {
+  color: var(--color-text-primary);
+}
+
+/* Strength item index number */
+.strength-index {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-family: var(--font-mono);
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(112, 183, 161, 0.06);
+  line-height: 1;
+  transition: color 0.4s ease;
+  user-select: none;
+}
+
+.strength-item:hover .strength-index {
+  color: rgba(112, 183, 161, 0.12);
+}
+
+/* ---- Professional Interests (bottom) ---- */
+.about-interests-box {
+  margin-top: 1.75rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--color-surface) 0%, rgba(29, 102, 112, 0.04) 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Subtle animated background pattern */
+.about-interests-box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(112, 183, 161, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(29, 102, 112, 0.03) 0%, transparent 50%);
+  animation: interestPulse 8s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes interestPulse {
+  0% { opacity: 0.5; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
+
+.about-interests-title {
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.about-interests-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-border), transparent);
+}
+
+.about-interests-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.interest-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  color: var(--color-text-secondary);
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: default;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.interest-tag::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--color-accent-gradient);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  border-radius: inherit;
+}
+
+.interest-tag:hover::before {
+  opacity: 0.12;
+}
+
+.interest-tag:hover {
+  color: var(--color-accent);
+  border-color: rgba(112, 183, 161, 0.4);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 16px -4px rgba(112, 183, 161, 0.2);
+}
+
+.interest-tag-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.interest-tag:hover .interest-tag-dot {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+/* ---- Floating particles in the section ---- */
+.about-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.about-particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  opacity: 0;
+  animation: particleDrift linear infinite;
+}
+
+.about-particle:nth-child(1) {
+  left: 10%;
+  animation-duration: 14s;
+  animation-delay: 0s;
+}
+.about-particle:nth-child(2) {
+  left: 25%;
+  animation-duration: 18s;
+  animation-delay: -3s;
+}
+.about-particle:nth-child(3) {
+  left: 45%;
+  animation-duration: 12s;
+  animation-delay: -7s;
+}
+.about-particle:nth-child(4) {
+  left: 65%;
+  animation-duration: 20s;
+  animation-delay: -2s;
+}
+.about-particle:nth-child(5) {
+  left: 82%;
+  animation-duration: 16s;
+  animation-delay: -9s;
+}
+.about-particle:nth-child(6) {
+  left: 92%;
+  animation-duration: 22s;
+  animation-delay: -5s;
+}
+
+@keyframes particleDrift {
+  0% {
+    opacity: 0;
+    transform: translateY(100vh) scale(0.5);
+  }
+  10% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(1.2);
+  }
+}
+
+/* ---- Animated divider line ---- */
+.about-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-border) 20%,
+    var(--color-accent) 50%,
+    var(--color-border) 80%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: dividerGlow 4s ease-in-out infinite;
+  margin: 2rem 0;
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes dividerGlow {
+  0%, 100% { background-position: 200% 0; }
+  50% { background-position: -200% 0; }
+}
+
+/* ---- Reduced Motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  .about-ambient-orb,
+  .about-particle {
+    animation: none;
+    opacity: 0;
+  }
+
+  .about-image-wrapper::before {
+    animation: none;
+  }
+
+  .about-divider {
+    animation: none;
+    background-position: 0% 0;
+  }
+
+  .highlight-card::before,
+  .highlight-card::after {
+    animation: none;
+  }
+
+  .about-interests-box::before {
+    animation: none;
+    opacity: 0.7;
+  }
+
+  .strength-item:hover,
+  .highlight-card:hover,
+  .interest-tag:hover {
+    transform: none;
+  }
+}
