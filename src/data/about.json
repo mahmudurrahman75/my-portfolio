@@ -1,37 +1,40 @@
 {
   "heading": "About Me",
   "biography": [
-    "I am a passionate Software Engineer who thrives at the intersection of robust engineering systems and intuitive product design. With a rigorous background in Computer Science and hands-on experience across the entire development lifecycle, I enjoy turning complex problem statements into clean, maintainable software.",
-    "My journey began with low-level systems programming and evolved into architecting distributed services and reactive web applications. I care deeply about developer experience, clean code principles, accessibility, and high runtime performance."
+    "I am a Full-Stack Web Developer with a multidisciplinary foundation bridging civil engineering rigor, web technologies, and entrepreneurial execution. Having graduated with a B.Sc. in Civil Engineering from the University of Asia Pacific (UAP), I developed strong analytical problem-solving abilities, structural thinking, and attention to detail—qualities that directly shape how I architect web software today.",
+    "My journey in digital technology started with training in SEO and affiliate marketing in 2015, which gave me an early appreciation for search performance, user intent, and product discoverability. I subsequently pursued intensive web development training through Programming Hero (covering JavaScript, React, Next.js, Node.js, and MongoDB) and advanced PHP/Laravel development through BITM.",
+    "As a co-founder of two business initiatives—iLabs360 (Technology and Software Solutions) and Shopnoneer (Real Estate and Property Services)—I have gained practical commercial awareness. I focus on developing clean, maintainable, and responsive web applications that solve real-world problems efficiently."
   ],
   "professionalInterests": [
-    "Distributed Systems & Cloud Architecture",
-    "High-Performance Web Applications & React",
-    "Developer Tooling & Automation",
-    "API Design & Domain-Driven Development"
+    "Full-Stack Web Application Architecture",
+    "Modern React & Next.js Frontend Systems",
+    "PHP, Laravel & Filament Admin Workflows",
+    "Technical SEO & Search Performance Optimization",
+    "Relational (MySQL) & Document (MongoDB) Databases",
+    "Entrepreneurial Product Development"
   ],
-  "careerGoals": "To design and scale mission-critical software products within high-impact engineering teams, while fostering engineering excellence and inclusive technical mentorship.",
+  "careerGoals": "To design and implement robust, performant web applications that deliver measurable value, while continually expanding my technical depth across modern software engineering stacks.",
   "coreStrengths": [
     {
-      "title": "Full-Stack Proficiency",
-      "description": "Seamlessly bridging typed modern frontends with secure, scalable backend architectures."
+      "title": "Engineering Foundation",
+      "description": "Structured analytical mindset developed through formal Civil Engineering studies at UAP."
     },
     {
-      "title": "Clean Architecture",
-      "description": "Committed to modular codebases, test-driven reliability, and maintainable abstractions."
+      "title": "Full-Stack Versatility",
+      "description": "Hands-on experience across modern JavaScript/TypeScript (React, Next.js, Node.js) and PHP/Laravel ecosystems."
     },
     {
-      "title": "Performance Mindset",
-      "description": "Optimizing bundle sizes, database queries, and rendering lifecycles for maximum efficiency."
+      "title": "SEO & Performance Awareness",
+      "description": "Trained in Search Engine Optimization to build websites that rank, perform, and convert."
     },
     {
-      "title": "Cross-Functional Collaboration",
-      "description": "Communicating technical trade-offs with clarity to designers, product managers, and peers."
+      "title": "Entrepreneurial Insight",
+      "description": "Practical understanding of business operations and client requirements as a startup co-founder."
     }
   ],
   "highlights": [
-    { "label": "Code Quality", "value": "100% Type-Safe & Linted" },
-    { "label": "Focus", "value": "Full-Stack Systems" },
-    { "label": "Methodology", "value": "Agile & CI/CD Driven" }
+    { "label": "Academic Foundation", "value": "B.Sc Civil Eng." },
+    { "label": "Stack Scope", "value": "MERN + Laravel" },
+    { "label": "Entrepreneurship", "value": "Co-Founder (2)" }
   ]
 }

@@ -1,119 +1,74 @@
 [
   {
-    "id": "cloud-task-orchestrator",
-    "name": "Cloud Task Orchestrator",
-    "category": "Full Stack",
+    "id": "ecom-site-admin",
+    "name": "E-Commerce Site Admin",
+    "category": "Backend & Admin",
     "featured": true,
-    "shortDescription": "Distributed job processing engine with real-time analytics dashboard.",
-    "detailedDescription": "A robust task scheduling and queueing platform built to handle asynchronous workloads across microservices. Features resilient retry mechanisms, telemetry instrumentation, and a clean web management interface.",
-    "techStack": ["React", "TypeScript", "Node.js", "Redis", "Docker", "PostgreSQL"],
-    "thumbnail": "/images/projects/orchestrator.svg",
-    "githubUrl": "https://github.com/example/cloud-task-orchestrator",
-    "liveDemoUrl": "https://example.com/demo/orchestrator",
-    "startDate": "Jan 2025",
-    "completionDate": "Apr 2025",
-    "role": "Lead Full-Stack Developer",
-    "keyFeatures": [
-      "Fault-tolerant Redis queue supporting 5k+ jobs/sec",
-      "Dynamic real-time telemetry dashboard with WebSocket streaming",
-      "Role-based access control and detailed audit logs"
-    ]
-  },
-  {
-    "id": "dev-metrics-analytics",
-    "name": "DevMetrics CI/CD Pulse",
-    "category": "Frontend",
-    "featured": true,
-    "shortDescription": "Interactive engineering productivity & DORA metrics visualizer.",
-    "detailedDescription": "Modern web dashboard providing engineering leads with actionable insights into deployment frequency, lead time for changes, and change failure rates from VCS webhooks.",
-    "techStack": ["React", "Vite", "CSS Modules", "Chart.js", "TypeScript"],
-    "thumbnail": "/images/projects/metrics.svg",
-    "githubUrl": "https://github.com/example/dev-metrics-pulse",
-    "liveDemoUrl": "https://example.com/demo/dev-metrics",
-    "startDate": "Aug 2024",
-    "completionDate": "Nov 2024",
-    "role": "Frontend Architect",
-    "keyFeatures": [
-      "Modular dashboard widgets with configurable grid layouts",
-      "Sub-second client filtering across 50,000+ pipeline records",
-      "Comprehensive keyboard shortcuts and high-contrast accessibility"
-    ]
-  },
-  {
-    "id": "distributed-kv-cache",
-    "name": "Nexus KV Store",
-    "category": "Backend & Systems",
-    "featured": true,
-    "shortDescription": "High-throughput in-memory key-value cache with Raft consensus.",
-    "detailedDescription": "Lightweight distributed caching store implementing peer discovery, leader election, and write-ahead logging to guarantee partition tolerance and consistency.",
-    "techStack": ["Go", "gRPC", "Docker", "Prometheus", "Linux"],
-    "thumbnail": "/images/projects/nexus-kv.svg",
-    "githubUrl": "https://github.com/example/nexus-kv-store",
-    "liveDemoUrl": "",
-    "startDate": "Feb 2024",
-    "completionDate": "Jun 2024",
-    "role": "Backend Engineer",
-    "keyFeatures": [
-      "Custom Raft consensus protocol implementation",
-      "P99 latency of under 4ms under synthetic benchmark loads",
-      "Prometheus metrics exporter for node cluster monitoring"
-    ]
-  },
-  {
-    "id": "markdown-docs-engine",
-    "name": "DocuPulse Static CMS",
-    "category": "Developer Tools",
-    "featured": false,
-    "shortDescription": "Blazing fast documentation generator with full-text search.",
-    "detailedDescription": "A developer-first documentation generator with instantaneous client-side fuzzy search, live MDX previews, and automated sitemap generation.",
-    "techStack": ["React", "TypeScript", "Node.js", "WebAssembly"],
-    "thumbnail": "/images/projects/docupulse.svg",
-    "githubUrl": "https://github.com/example/docupulse",
-    "liveDemoUrl": "https://example.com/demo/docupulse",
-    "startDate": "Sep 2023",
-    "completionDate": "Dec 2023",
-    "role": "Creator & Maintainer",
-    "keyFeatures": [
-      "Wasm-powered client fuzzy search index under 20KB",
-      "Dark mode first design system with syntax highlighting"
-    ]
-  },
-  {
-    "id": "event-stream-api-gateway",
-    "name": "HyperGateway Proxy",
-    "category": "Backend & Systems",
-    "featured": false,
-    "shortDescription": "Extensible reverse proxy and rate limiting gateway service.",
-    "detailedDescription": "Configurable API gateway featuring token bucket rate limiting, JWT validation middleware, and upstream circuit breaking.",
-    "techStack": ["Node.js", "Express", "Redis", "Docker"],
+    "shortDescription": "Full-featured administrative dashboard for managing online store products, categories, orders, and users.",
+    "detailedDescription": "An e-commerce back-office administration system providing merchants with catalog management, order workflow tracking, customer records, and administrative controls.",
+    "techStack": ["PHP", "Laravel", "MySQL", "JavaScript", "HTML5", "CSS3"],
     "thumbnail": "/images/projects/hypergateway.svg",
-    "githubUrl": "https://github.com/example/hypergateway",
+    "githubUrl": "https://github.com/mahmudurrahman75/ecom_site_admin",
     "liveDemoUrl": "",
-    "startDate": "Apr 2023",
-    "completionDate": "Jul 2023",
-    "role": "Backend Developer",
+    "role": "Full-Stack Developer",
     "keyFeatures": [
-      "Token-bucket rate limiting per IP / API key",
-      "Circuit breaker preventing upstream cascading failures"
+      "Catalog, product inventory, and category management",
+      "Order processing workflow and administrative status updates",
+      "Secure authentication and role-based administrative access"
     ]
   },
   {
-    "id": "canvas-flowchart-editor",
-    "name": "GraphDraft Canvas",
-    "category": "Frontend",
-    "featured": false,
-    "shortDescription": "Browser-based architecture diagramming tool with SVG export.",
-    "detailedDescription": "Interactive canvas for engineering diagrams with smart edge snapping, undo/redo history trees, and zero external layout dependencies.",
-    "techStack": ["React", "HTML5 Canvas", "TypeScript", "CSS3"],
-    "thumbnail": "/images/projects/graphdraft.svg",
-    "githubUrl": "https://github.com/example/graphdraft",
-    "liveDemoUrl": "https://example.com/demo/graphdraft",
-    "startDate": "Jan 2023",
-    "completionDate": "Mar 2023",
+    "id": "my-blog-nextjs",
+    "name": "Personal Developer Blog",
+    "category": "Frontend & Next.js",
+    "featured": true,
+    "shortDescription": "Modern content blog platform built with Next.js, optimized for search engines and responsive reading.",
+    "detailedDescription": "A responsive, performance-focused web blog utilizing Next.js for server-side rendering, fast page delivery, and technical SEO structure.",
+    "techStack": ["Next.js", "React", "JavaScript", "CSS3", "Technical SEO"],
+    "thumbnail": "/images/projects/docupulse.svg",
+    "githubUrl": "https://github.com/mahmudurrahman75/my-blog-nextjs",
+    "liveDemoUrl": "",
     "role": "Frontend Developer",
     "keyFeatures": [
-      "60 FPS rendering of 500+ interconnected canvas nodes",
-      "Export to SVG, PNG, and JSON schema"
+      "Server-side rendering (SSR) for instantaneous page loads",
+      "Built-in Open Graph and meta-tag optimization for search visibility",
+      "Clean, mobile-first reading typography and responsive layout"
+    ]
+  },
+  {
+    "id": "eng-division",
+    "name": "Engineering Division Platform",
+    "category": "Full Stack",
+    "featured": true,
+    "shortDescription": "Web application supporting engineering division workflow tracking and project coordination.",
+    "detailedDescription": "Domain-focused web solution designed to bridge engineering project organization, division records, and operational tasks.",
+    "techStack": ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap/CSS"],
+    "thumbnail": "/images/projects/orchestrator.svg",
+    "githubUrl": "https://github.com/mahmudurrahman75/eng_division",
+    "liveDemoUrl": "",
+    "role": "Web Developer",
+    "keyFeatures": [
+      "Division workflow tracking and record organization",
+      "Structured database modeling with relational MySQL",
+      "Responsive user interface for cross-device management"
+    ]
+  },
+  {
+    "id": "developer-portfolio",
+    "name": "Professional Web Developer Portfolio",
+    "category": "Frontend & Next.js",
+    "featured": false,
+    "shortDescription": "Data-driven, accessible, dark-themed personal portfolio website built with React and Vite.",
+    "detailedDescription": "Single-page responsive portfolio featuring decoupled JSON architecture, smooth scroll reveals, 3D developer workspace visuals, and strict semantic HTML.",
+    "techStack": ["React", "Vite", "JavaScript (ES6+)", "Modern CSS", "Accessibility"],
+    "thumbnail": "/images/projects/metrics.svg",
+    "githubUrl": "https://github.com/mahmudurrahman75/my-portfolio",
+    "liveDemoUrl": "",
+    "role": "Creator & Maintainer",
+    "keyFeatures": [
+      "Decoupled JSON data layer for seamless zero-code content updates",
+      "Custom 3D code editor visual and hardware-accelerated animations",
+      "Comprehensive technical SEO and WCAG-aligned contrast"
     ]
   }
 ]

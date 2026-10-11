@@ -23,8 +23,8 @@
   height: 120%;
   background: radial-gradient(
     circle at center,
-    rgba(110, 168, 254, 0.16) 0%,
-    rgba(56, 189, 248, 0.08) 40%,
+    rgba(112, 183, 161, 0.16) 0%,
+    rgba(29, 102, 112, 0.12) 40%,
     transparent 70%
   );
   filter: blur(40px);
@@ -45,14 +45,14 @@
 /* Floating Code Editor Card */
 .code-editor-panel {
   position: relative;
-  background: rgba(18, 22, 32, 0.88);
+  background: rgba(17, 24, 32, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(110, 168, 254, 0.22);
+  border: 1px solid rgba(112, 183, 161, 0.25);
   border-radius: var(--radius-lg);
   box-shadow: 
-    0 20px 50px -10px rgba(0, 0, 0, 0.7),
-    0 0 30px -5px rgba(110, 168, 254, 0.15);
+    0 20px 50px -10px rgba(0, 0, 0, 0.75),
+    0 0 30px -5px rgba(112, 183, 161, 0.15);
   overflow: hidden;
   animation: float-main 6s ease-in-out infinite;
   transform: translateZ(30px);
@@ -73,7 +73,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.65rem 1rem;
-  background: rgba(14, 18, 26, 0.95);
+  background: rgba(11, 15, 20, 0.95);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
@@ -109,9 +109,9 @@
 }
 
 .editor-tab.active {
-  background: rgba(110, 168, 254, 0.12);
+  background: rgba(112, 183, 161, 0.14);
   color: var(--color-accent);
-  border: 1px solid rgba(110, 168, 254, 0.25);
+  border: 1px solid rgba(112, 183, 161, 0.3);
   font-weight: 600;
 }
 
@@ -143,7 +143,7 @@
   font-size: 0.85rem;
   line-height: 1.65;
   color: #D1D5DB;
-  background: linear-gradient(180deg, rgba(16, 20, 30, 0.6) 0%, rgba(11, 14, 22, 0.9) 100%);
+  background: linear-gradient(180deg, rgba(17, 24, 32, 0.7) 0%, rgba(11, 15, 20, 0.95) 100%);
   overflow-x: auto;
 }
 
@@ -169,17 +169,17 @@
 
 /* Syntax Token Colors */
 .token-keyword { color: #F472B6; font-weight: 600; }
-.token-var { color: #60A5FA; }
-.token-type { color: #38BDF8; }
+.token-var { color: #85CBB5; }
+.token-type { color: #70B7A1; }
 .token-prop { color: #93C5FD; }
-.token-string { color: #34D399; }
+.token-string { color: #6EE7B7; }
 .token-punct { color: #9CA3AF; }
 .token-fn { color: #FBBF24; }
-.token-comment { color: #64748B; font-style: italic; }
+.token-comment { color: #6B7280; font-style: italic; }
 
 /* Active Typing / Highlight Line */
 .active-scan-line {
-  background: rgba(110, 168, 254, 0.08);
+  background: rgba(112, 183, 161, 0.08);
   border-radius: 4px;
   position: relative;
 }
@@ -204,7 +204,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem 1rem;
-  background: rgba(10, 13, 20, 0.95);
+  background: rgba(9, 12, 16, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -224,12 +224,12 @@
   align-items: center;
   gap: 8px;
   padding: 0.5rem 0.9rem;
-  background: rgba(22, 28, 42, 0.9);
+  background: rgba(21, 30, 40, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(110, 168, 254, 0.28);
+  border: 1px solid rgba(112, 183, 161, 0.3);
   border-radius: var(--radius-full);
-  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.5), 0 0 16px rgba(110, 168, 254, 0.15);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.5), 0 0 16px rgba(112, 183, 161, 0.15);
   font-family: var(--font-mono);
   font-size: 0.82rem;
   font-weight: 600;
@@ -242,7 +242,7 @@
 
 .floating-badge:hover {
   border-color: var(--color-accent);
-  box-shadow: 0 10px 28px -2px rgba(110, 168, 254, 0.35);
+  box-shadow: 0 10px 28px -2px rgba(112, 183, 161, 0.35);
   transform: scale(1.05) translateZ(50px) !important;
 }
 

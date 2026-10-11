@@ -1,733 +1,431 @@
-# PROJECT: Build a Professional Software Engineer Portfolio Website
+# Project: Professional Full-Stack Web Developer Portfolio
 
-Act as a senior frontend engineer, UI/UX designer, and software architect. Build a complete, production-quality, static Software Engineer Portfolio Website using the existing React + Vite + JavaScript project.
+Act as a senior UI/UX designer, senior React engineer, and professional portfolio architect. Your task is to build a modern, industry-standard personal portfolio website for a Full-Stack Web Developer with a Civil Engineering background and entrepreneurial experience.
 
-Do not merely provide instructions, examples, or mockups. Implement the actual working application by creating and editing the necessary project files.
+## 1. First, Analyze the Existing Project
 
-Before coding, inspect the existing project structure and dependencies. Preserve the existing React + Vite setup and build the portfolio within it.
+Before modifying any code:
 
-## 1. Primary Objective
+- Inspect the entire existing project structure.
+- Identify the React setup, TypeScript configuration, installed dependencies, routing, styling system, and reusable components.
+- Review the existing components, assets, configuration files, and JSON data.
+- Preserve working code and existing dependencies whenever possible.
+- Do not unnecessarily recreate or overwrite the project.
+- Identify what needs to be improved, added, or refactored.
+- After the analysis, implement the portfolio directly in the existing project.
 
-Create a premium, modern, professional portfolio website for a Software Engineer.
+If something is already implemented correctly, reuse it rather than rebuilding it from scratch.
 
-The website should communicate technical expertise, problem-solving ability, project experience, academic background, achievements, and professional identity.
+## 2. Professional Identity
 
-The design should feel like a polished engineering portfolio suitable for:
-- Software engineering job applications
-- Recruiter and hiring manager reviews
-- Internship applications
-- Professional networking
-- Showcasing personal and academic projects
+Present me as a Full-Stack Web Developer specializing in modern frontend and backend web technologies, with additional experience in SEO, affiliate marketing, entrepreneurship, and civil engineering.
 
-The final result must look intentionally designed, not like a generic tutorial project or a basic template.
+My professional positioning:
 
-## 2. Required Technology Stack
+**Primary title:** Full-Stack Web Developer
 
-Use:
+**Supporting description:** Building modern, responsive, scalable, and user-focused web applications with contemporary frontend and backend technologies.
+
+My portfolio should communicate technical capability, practical problem-solving, business awareness, and a commitment to continuous learning.
+
+Do not present me as a beginner or exaggerate my professional experience. Focus on my skills, projects, education, training, and entrepreneurial activities.
+
+## 3. Personal and Professional Background
+
+Use the following information throughout the website where appropriate.
+
+### Technical Skills
+
+**Frontend development**
+- JavaScript
+- TypeScript
 - React
-- Vite
-- JavaScript (ES6+)
-- React functional components
-- React Hooks where appropriate
-- React Router only if genuinely needed
-- Plain CSS or CSS Modules for styling
-- npm for package management
+- Next.js
+- HTML5
+- CSS3
+- Responsive web design
 
-You may use Lucide React for icons and Framer Motion or Motion for subtle animations if compatible with the project. Prefer lightweight dependencies.
+**Backend development**
+- Node.js
+- PHP
+- Laravel
+- Filament
 
-Do not introduce a backend, database, authentication system, API server, or unnecessary state management library.
+**Database**
+- MySQL
+- MongoDB
 
-This is a static website. All portfolio content must be loaded from local JSON files.
+**Additional expertise**
+- Search Engine Optimization (SEO)
+- Affiliate Marketing
+- Technical problem-solving
+- Web application development
 
-Use semantic HTML, reusable components, clean separation of concerns, and maintainable code.
+Organize these technologies into meaningful categories. Do not display skill percentages or claim expert-level proficiency without verified evidence.
 
-## 3. Design Direction: Premium Dark Theme
+### Learning and Training Timeline
 
-Create a sophisticated dark interface inspired by modern developer portfolios and professional engineering websites.
+- **2015:** Completed training in Affiliate Marketing and Search Engine Optimization (SEO).
+- **2020:** Completed Programming Hero training covering JavaScript, React, Next.js, Node.js, and MongoDB.
+- **2022:** Completed PHP and Laravel training through BITM.
 
-Design characteristics:
-- Near-black or deep charcoal background
-- Slightly lighter surfaces for cards and panels
-- A restrained electric blue, cyan, or violet accent
-- Clear typography and strong visual hierarchy
-- Generous spacing
-- Subtle borders
-- Refined hover states
-- Consistent corner radii
-- Minimal, tasteful shadows
-- Smooth but restrained transitions
-- A clean, grid-based layout
+Present these as completed training programs, not employment history or professional certifications unless the underlying credentials support those claims.
 
-Suggested design tokens:
+### Education
 
---color-bg: #0B0D12;
---color-surface: #121620;
---color-surface-elevated: #191F2B;
---color-text-primary: #F4F6FA;
---color-text-secondary: #A3ADBD;
---color-accent: #6EA8FE;
---color-border: #273041;
+**Bachelor of Science in Civil Engineering**
+- Institution: University of Asia Pacific (UAP)
+- Completion year: 2017
 
-Define all design tokens as CSS custom properties in a central stylesheet. Use them consistently throughout the application.
+**Higher Secondary Certificate (HSC)**
+- Institution: Government Science College
+- Board: Dhaka
+- Group: Science
+- Completion year: 2012
+- Result: GPA 4.30/5.00
 
-The colors are starting points, not rigid constraints. Refine the palette to achieve a cohesive visual result.
+**Secondary School Certificate (SSC)**
+- Institution: Mohammadpur Government High School
+- Board: Dhaka
+- Group: Science
+- Completion year: 2010
+- Result: GPA 5.00/5.00
 
-Typography:
-- Use a modern, readable sans-serif font.
-- Consider Inter or a similar font.
-- Use monospace typography sparingly for code-related details, labels, and technical accents.
-- Maintain accessible text contrast and comfortable line heights.
+### Entrepreneurship
 
-Avoid:
-- Excessive gradients
-- Neon overload
-- Overuse of glassmorphism
-- Excessive animations
-- Large numbers of decorative elements
-- Generic emoji icons
-- Inconsistent spacing
-- Overly rounded cards everywhere
-- Fake terminal animations that distract from the content
+**Co-Founder — iLabs360**
+- Industry: Technology and Software Solutions
+- Location: Mohammadpur, Dhaka, Bangladesh
 
-## 4. Website Architecture
+**Co-Founder — Shopnoneer**
+- Industry: Real Estate and Property Services
+- Location: Mohammadpur, Dhaka, Bangladesh
 
-Build the website as a single-page portfolio with clearly defined sections.
+Display these ventures in a dedicated entrepreneurship section. Do not invent company descriptions, client counts, revenue, team sizes, or achievements.
 
-Required sections, in this order:
+## 4. Design Direction
 
-1. Navigation
-2. Hero / Introduction
-3. About Me
-4. Technical Skills
-5. Featured Projects
-6. Professional Experience
-7. Education / Academics
-8. Achievements and Certifications
-9. Services or Areas of Expertise (optional, only if appropriate)
-10. Contact
-11. Footer
+Build a premium, professional, dark-themed portfolio inspired by modern software engineering portfolios.
 
-Navigation links should smoothly scroll to their respective sections.
+### Color palette
 
-Use stable section IDs and ensure the header does not obscure section headings when navigating.
+Use a consistent design system based on:
 
-A separate résumé page is not required. Provide a résumé download link in the hero and contact areas if a résumé asset is available.
+- Background: #0B0F14
+- Secondary background: #111820
+- Card background: #151E28
+- Primary accent: #70B7A1
+- Secondary accent: #1D6670
+- Primary text: #F3F4F6
+- Secondary text: #9CA3AF
+- Borders: subtle dark gray
 
-## 5. Data-Driven Architecture: JSON Is the Source of Truth
+Use accent colors selectively. Avoid excessive gradients, neon colors, glassmorphism, glowing effects, and unnecessary decoration.
 
-This is one of the most important requirements.
+The design must feel sophisticated, readable, and professional.
 
-All personal and portfolio content must be stored in separate JSON files. React components must not contain hardcoded personal information, project descriptions, academic details, skills, experience records, achievements, or contact information.
+### Typography
+
+Use a modern font such as Inter or Manrope. Establish a consistent hierarchy for headings, body text, labels, metadata, and buttons.
+
+### Responsive design
+
+Ensure the entire website works well on:
+- Desktop monitors
+- Laptops
+- Tablets
+- Mobile phones
+
+Use consistent spacing, appropriate content widths, accessible contrast, and responsive layouts.
+
+## 5. Website Structure
+
+Create the following sections in a logical single-page portfolio with smooth navigation.
+
+### A. Navigation Bar
+
+Include:
+- Personal brand or name
+- Home
+- About
+- Skills
+- Experience
+- Projects
+- Education
+- Contact
+
+Add a prominent "Let's Talk" or "Contact Me" button.
+
+The navbar should remain accessible while scrolling, with a polished mobile navigation menu.
+
+### B. Hero Section
+
+Create an impressive two-column hero section.
+
+**Left side:**
+- Professional greeting
+- My name
+- Main title: Full-Stack Web Developer
+- A short, impactful professional introduction
+- Primary CTA: View My Projects
+- Secondary CTA: Contact Me
+- Optional Resume button only if a real resume file exists
+
+Suggested introduction:
+
+"I build modern web applications that combine thoughtful user experiences with reliable backend architecture. With experience across React, Next.js, Node.js, PHP, and Laravel, I enjoy turning complex ideas into practical digital solutions."
+
+Mention SEO, entrepreneurship, and my civil engineering background naturally without overcrowding the hero.
+
+**Right side: animated visual**
+
+Build an original developer-themed animation using CSS, SVG, or lightweight React components.
+
+Possible elements:
+- Animated code editor or terminal
+- Floating technology labels
+- Subtle orbital motion
+- Connecting nodes representing frontend, backend, and database systems
+- A central abstract developer illustration
+
+Use smooth, restrained animation. Prefer CSS animations or lightweight SVG over heavy 3D libraries.
+
+The animation must be responsive, visually balanced, and respectful of reduced-motion preferences.
+
+Do not use a generic stock-photo hero. Do not make up a personal portrait.
+
+### C. About Me
+
+Create a concise professional biography describing:
+- My transition from a civil engineering background into web development
+- My frontend and backend interests
+- My completed technical training
+- My interest in creating practical, maintainable web applications
+- My experience as a co-founder of two ventures
+- My SEO and affiliate marketing background
+
+Use a clear editorial layout, with optional professional metadata cards.
+
+Avoid unsupported claims about years of professional software employment.
+
+### D. Technical Skills
+
+Display technologies in organized groups:
+
+1. Frontend
+2. Backend
+3. Databases
+4. SEO and Digital Marketing
+
+Use technology icons from a reliable icon library, such as Lucide or Simple Icons where appropriate.
+
+Create clean skill cards or grouped badges. Include subtle hover interactions.
+
+Do not create fake proficiency percentages, animated skill meters, or arbitrary skill rankings.
+
+### E. Experience and Learning Journey
+
+Build a professional timeline featuring:
+
+- 2015 — Affiliate Marketing and SEO training
+- 2020 — Programming Hero training in JavaScript, React, Next.js, Node.js, and MongoDB
+- 2022 — PHP and Laravel training through BITM
+
+Keep this separate from formal employment history.
+
+Include entrepreneurship as a separate subsection for iLabs360 and Shopnoneer.
+
+Allow future employment experience to be added through JSON data without changing the components.
+
+### F. Featured Projects
+
+Build a premium project showcase using responsive cards.
+
+Each card should support:
+- Project title
+- Description
+- Technology stack
+- Project image or screenshot
+- GitHub repository URL
+- Live demo URL, when available
+- Optional project category
+- Optional featured status
+
+Include the projects that already exist in my provided data or current project files.
+
+Potential existing repositories to use if verified:
+
+- Software Engineer Portfolio: https://github.com/mahmudurrahman75/my-portfolio
+- Engineering Division: https://github.com/mahmudurrahman75/eng_division
+- My Blog: https://github.com/mahmudurrahman75/my-blog-nextjs
+- E-commerce Site Admin: https://github.com/mahmudurrahman75/ecom_site_admin
+
+Verify these details against the existing data or repository information before presenting project descriptions as confirmed facts.
+
+Use high-quality project screenshots if they are available locally. Never fabricate project screenshots or claim that a project has features that are not implemented.
+
+Add project filtering by technology or category if it improves usability.
+
+### G. Entrepreneurship
+
+Create a separate section highlighting:
+
+**iLabs360**
+Co-Founder | Technology and Software Solutions
+
+**Shopnoneer**
+Co-Founder | Real Estate and Property Services
+
+Use elegant cards and concise descriptions. Make this section visually distinct from the technical skills and learning timeline.
+
+Do not invent company logos. Use text-based branding or existing assets if no logos are available.
+
+### H. Education
+
+Present my Civil Engineering degree and HSC/SSC qualifications in a clean timeline or academic cards.
+
+Use the exact institution names, years, and results provided in the project data.
+
+Make the Civil Engineering degree the primary academic entry.
+
+### I. Contact Section
+
+Create a professional contact section with:
+- Email, if provided in the existing data
+- GitHub
+- LinkedIn
+- Portfolio links where appropriate
+- A clear collaboration or project inquiry CTA
+
+Use existing verified contact information. Do not invent an email address or phone number.
+
+If a contact form is implemented, provide proper validation and clear submission feedback. Do not create a fake form that appears to send messages without a working backend or email integration.
+
+### J. Footer
+
+Include:
+- My name
+- Professional title
+- Social links
+- Copyright year generated dynamically
+- A minimal closing message
+
+Keep the footer elegant and compact.
+
+## 6. Data-Driven Architecture
+
+This is a critical requirement.
+
+Store all portfolio content in separate JSON files instead of hardcoding personal information inside React components.
 
 Create a structure similar to:
 
 src/
-├── assets/
-│   ├── images/
-│   └── documents/
-├── components/
-│   ├── layout/
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   └── Container.jsx
-│   ├── common/
-│   │   ├── SectionHeading.jsx
-│   │   ├── Button.jsx
-│   │   ├── SocialLinks.jsx
-│   │   ├── Tag.jsx
-│   │   ├── ProjectCard.jsx
-│   │   └── EmptyState.jsx
-│   └── sections/
-│       ├── Hero.jsx
-│       ├── About.jsx
-│       ├── Skills.jsx
-│       ├── Projects.jsx
-│       ├── Experience.jsx
-│       ├── Education.jsx
-│       ├── Achievements.jsx
-│       └── Contact.jsx
-├── data/
-│   ├── site.json
-│   ├── personal.json
-│   ├── about.json
-│   ├── social-links.json
-│   ├── skills.json
-│   ├── projects.json
-│   ├── experience.json
-│   ├── education.json
-│   ├── achievements.json
-│   └── contact.json
-├── hooks/
-├── utils/
-├── styles/
-│   ├── variables.css
-│   ├── global.css
-│   ├── layout.css
-│   └── components.css
-├── App.jsx
-└── main.jsx
+  assets/
+  components/
+    layout/
+    sections/
+    ui/
+  data/
+    personal.json
+    navigation.json
+    skills.json
+    projects.json
+    experience.json
+    education.json
+    entrepreneurship.json
+    socialLinks.json
+  hooks/
+  types/
+  utils/
+  App.tsx
+  main.tsx
+  index.css
 
-You may adjust the structure if there is a strong architectural reason, but keep the data, presentation components, layout, and styles clearly separated.
-
-Create every required JSON file with valid JSON syntax.
-
-Import the JSON files into the relevant React components using normal static imports.
-
-Do not use fetch() to load these local JSON files. Static imports are more suitable for this Vite application.
-
-The website must work without an API, backend, database, or runtime network request for portfolio content.
-
-### 5.1 site.json
-
-Store global site configuration:
-- Site title
-- Website description
-- Default SEO title
-- Default SEO description
-- Copyright name
-- Current navigation configuration
-- Default accent theme, if configurable
-
-### 5.2 personal.json
-
-Store:
-- Full name
-- Professional title
-- Short headline
-- Location
-- Profile image path
-- Availability status
-- Years of experience, only if provided and accurate
-- Primary call-to-action text
-- Secondary call-to-action text
-- Résumé file path
-- Hero introduction
-
-### 5.3 about.json
-
-Store:
-- About heading
-- Biography
-- Professional interests
-- Career goals
-- Core strengths
-- Optional highlights
-
-### 5.4 social-links.json
-
-Store:
-- GitHub URL
-- LinkedIn URL
-- Portfolio or personal website URL
-- Email link, if appropriate
-- Other professional profiles
-
-Each item should include a label, URL, and icon identifier where appropriate.
-
-### 5.5 skills.json
-
-Organize skills into categories such as:
-- Programming Languages
-- Frontend Development
-- Backend Development
-- Databases
-- Tools and Platforms
-- Core Computer Science Concepts
-
-Each skill may contain:
-- Name
-- Category
-- Optional icon identifier
-- Optional short description
-- Optional featured flag
-
-Do not invent skill proficiency percentages. Avoid meaningless progress bars unless real, defensible data is explicitly provided.
-
-Render skills as polished categorized groups with clear labels and consistent spacing.
-
-### 5.6 projects.json
-
-Support multiple projects.
-
-Each project may contain:
-- Unique ID
-- Project name
-- Short description
-- Detailed description
-- Technology stack
-- Project category
-- Thumbnail image path
-- GitHub repository URL
-- Live demo URL
-- Featured flag
-- Optional start date
-- Optional completion date
-- Optional key features
-- Optional role or contribution
-
-Display featured projects prominently.
-
-Project cards must be generated dynamically from the JSON array.
-
-Add sensible conditional rendering:
-- Show GitHub links only when a valid repository URL is provided.
-- Show live demo links only when a valid demo URL is provided.
-- Show project images only when configured.
-- Hide missing optional metadata rather than rendering undefined, null, or empty text.
-- Provide a graceful image fallback when a configured image cannot load.
-
-If sufficient projects exist, provide a category filter. The filter must work using React state and must be keyboard accessible.
-
-Do not invent actual project names, repositories, live demos, or accomplishments.
-
-### 5.7 experience.json
-
-Store:
-- Company or organization
-- Job title
-- Employment type
-- Location
-- Start date
-- End date or present status
-- Responsibilities
-- Measurable accomplishments, if provided
-- Technologies used
-
-Render experience as a clean timeline or structured professional history.
-
-If the portfolio owner has no formal employment history, allow this section to be hidden or populated with legitimate internships, open-source contributions, research, or other relevant experience.
-
-Never fabricate employers, job titles, or employment dates.
-
-### 5.8 education.json
-
-Store:
-- Institution name
-- Degree
-- Field of study
-- Start date
-- End date or expected graduation date
-- Location
-- Optional GPA
-- Relevant coursework
-- Optional academic highlights
-
-Render a professional academic history.
-
-Do not invent institutions, degrees, grades, or dates.
-
-### 5.9 achievements.json
-
-Support:
-- Awards
-- Certifications
-- Competitions
-- Academic honors
-- Hackathons
-- Relevant publications
-- Verified milestones
-
-Each record may contain:
-- ID
-- Title
-- Issuing organization
-- Date
-- Description
-- Credential URL
-- Optional image or logo path
-- Type
-
-Render records dynamically and hide missing optional fields.
-
-Never fabricate awards, certificates, or rankings.
-
-### 5.10 contact.json
-
-Store:
-- Section heading
-- Short invitation message
-- Contact email
-- Optional location
-- Optional availability message
-- Contact button label
-- Additional contact links
-
-Because this is a static website, use a mailto link or a clearly labeled external contact method. Do not pretend that a backend-powered contact form exists.
-
-## 6. Content Integrity and Placeholder Policy
-
-The actual owner's personal information has not necessarily been provided.
-
-Create clearly labeled sample content only where needed to demonstrate the layout, and make it easy to replace.
-
-Prefer neutral placeholders such as:
-- "Your Name"
-- "Software Engineer"
-- "Add your professional introduction here"
-- "Add project details here"
-
-If you include illustrative sample projects, mark them clearly as examples in the data and README. Do not present them as real accomplishments.
-
-Do not fabricate personal achievements, employment, academic credentials, social profile URLs, metrics, or experience.
-
-Keep all editable portfolio content in JSON, not in JSX.
-
-Avoid making the page look unfinished merely because information is missing. Use a professional empty state or hide optional sections when their data arrays are empty.
-
-## 7. Navigation and Header
-
-Build a responsive navigation bar featuring:
-- Text-based logo or initials derived from personal configuration
-- Section navigation links
-- A résumé button when a résumé is configured
-- Mobile menu toggle
+Adapt this structure to the existing project instead of blindly replacing it.
 
 Requirements:
-- Sticky or fixed navigation with suitable background treatment
-- Active-section indication when practical
+- Use TypeScript interfaces or types for the JSON data.
+- Create reusable components.
+- Keep layout and presentation separate from content.
+- Avoid duplicated content.
+- Use semantic HTML.
+- Use reusable buttons, section headings, badges, cards, and timeline components.
+- Keep data easy to update without modifying the UI.
+- Store image paths and external links in data files when appropriate.
+- Validate data assumptions and handle optional fields safely.
+
+Because this is a static React portfolio, do not introduce a backend or database unless explicitly required.
+
+## 7. Animation and Interactions
+
+Use motion selectively to improve the user experience.
+
+Implement:
 - Smooth scrolling
-- Keyboard-accessible navigation
-- Escape key support for closing the mobile menu
-- Mobile menu closes after navigation
-- Proper accessible labels and ARIA attributes
-- Visible keyboard focus styles
-
-Avoid a navigation bar that takes too much vertical space.
-
-## 8. Hero Section
-
-Create a visually compelling opening section.
-
-Include:
-- Professional greeting
-- Name
-- Software engineering title
-- A concise introduction
-- Primary CTA: View Projects
-- Secondary CTA: Contact Me
-- Optional résumé download
-- Optional profile image or restrained decorative visual
-- Optional configured social links
-
-The first viewport should clearly communicate who the developer is and what they do.
-
-Use a balanced layout that works on desktop and mobile.
-
-Make the content readable and visually confident. Do not force arbitrary typing animations or a flashing cursor.
-
-If the profile image is missing, design an attractive text-based or geometric fallback.
-
-## 9. About Section
-
-Create a readable biography section with:
-- Clear section heading
-- Biography
-- Optional interests and career focus
-- Optional key strengths
-
-Use comfortable text widths and spacing.
-
-Render content from about.json.
-
-## 10. Skills Section
-
-Build an organized skills section using data from skills.json.
-
-Use categorized cards, groups, or compact tag collections.
-
-Requirements:
-- Consistent category hierarchy
-- Clear skill labels
-- Optional lightweight icons
-- Responsive layout
-- No fake proficiency metrics
-- No excessive decorative graphics
-
-If a skill category has no items, hide it.
-
-## 11. Projects Section
-
-Create high-quality project cards.
-
-Each card should support:
-- Thumbnail or fallback artwork
-- Project title
-- Concise description
-- Technology tags
-- GitHub button or link
-- Live demo button or link
-- Optional project metadata
-
-Use consistent card dimensions where practical without clipping content.
-
-Create clear visual hierarchy between featured and secondary projects.
-
-Use subtle hover effects, not excessive scaling or movement.
-
-If filtering is enabled, ensure the selected category has a clear visual and accessible state.
-
-Do not render empty links.
-
-## 12. Experience and Education
-
-Create professional, readable sections using the respective JSON data.
-
-Experience can use a vertical timeline or clean list.
-
-Education can use structured cards or a compact timeline.
-
-Both sections must:
-- Render multiple records dynamically
-- Format dates consistently
-- Support present or expected end dates
-- Handle missing optional fields
-- Avoid invented information
-
-Do not show a section heading if its content is intentionally disabled and no records exist, unless the design explicitly calls for a useful empty state.
-
-## 13. Achievements and Certifications
-
-Build a clean section that can accommodate:
-- Certification cards
-- Award records
-- Competition achievements
-- Credential links
-
-Use small type labels and restrained icons.
-
-Only display credential links that are configured and valid.
-
-Ensure the section remains visually balanced with one item or many items.
-
-## 14. Contact Section
-
-Create a strong final call-to-action.
-
-Include:
-- A professional invitation to connect
-- Configured email link
-- Optional social profile links
-- Optional availability message
-- Clear, accessible CTA styling
-
-Use a mailto link for email communication.
-
-Do not collect or transmit personal information through a nonfunctional form.
-
-Do not invent a phone number, address, or contact details.
-
-## 15. Footer
-
-Build a minimal footer containing:
-- Copyright notice using configured data
-- Optional social links
-- A back-to-top link
-- Optional small technology credit
-
-Use the current year dynamically in the copyright display.
-
-Do not duplicate large amounts of navigation or content in the footer.
-
-## 16. Responsive Design
-
-The entire website must be fully responsive.
-
-Test and refine layouts at approximately:
-- 320px
-- 375px
-- 768px
-- 1024px
-- 1440px and wider
-
-Requirements:
-- Mobile-first CSS where practical
-- No horizontal page overflow
-- Responsive typography using clamp() where useful
-- Flexible grids
-- Appropriate content max-widths
-- Responsive navigation
-- Comfortable touch targets
-- Images that scale correctly
-- No clipped project descriptions
-- Consistent spacing across breakpoints
-
-Do not merely shrink the desktop layout. Make deliberate decisions for mobile composition.
-
-## 17. Accessibility
-
-Follow good accessibility practices.
-
-Include:
-- Semantic landmarks
-- Logical heading hierarchy
-- Accessible link names
-- Appropriate alt text for meaningful images
-- Decorative images hidden from assistive technology
-- Keyboard navigation
-- Visible focus indicators
-- Sufficient contrast
-- Accessible mobile menu
-- Reduced-motion support using prefers-reduced-motion
-- Proper labels and state for interactive controls
-
-Avoid using color alone to communicate information.
-
-## 18. SEO and Metadata
-
-Configure appropriate static-site metadata:
-- Document title
-- Meta description
-- Theme color
-- Viewport metadata
-- Open Graph title, description, and image when available
-- Favicon if an appropriate asset is present
-
-Use values from site.json and relevant personal configuration where appropriate.
-
-Set sensible document defaults and ensure the page has a meaningful title if optional content is missing.
-
-Do not claim that the application has server-rendered SEO or automatic dynamic social previews. This is a static React application.
-
-## 19. Performance and Code Quality
-
-Requirements:
-- Reusable components
-- Clear and consistent naming
-- No unnecessary component duplication
-- No unused imports
-- No console errors
-- No invalid JSON
-- No broken internal anchor links
-- No undefined text in the interface
-- No unnecessary dependencies
-- No backend or API requirements
-- Efficient rendering
-- No unnecessary global state
-
-Create small helper utilities for repeated tasks such as date formatting, safe link rendering, and optional-content handling where appropriate.
-
-Avoid overengineering a single-page portfolio.
-
-Use React keys correctly when rendering lists.
-
-Keep styling consistent and avoid large, duplicated CSS blocks.
-
-## 20. Asset Management
-
-Store local images and documents in the assets directory.
-
-Use clear, predictable paths in JSON, such as:
-- /images/profile.jpg
-- /images/projects/project-one.webp
-- /documents/resume.pdf
-
-Use paths compatible with the Vite public directory or the configured assets strategy. Document the chosen approach.
-
-If a file does not exist, fail gracefully and do not display a broken image or misleading download link.
-
-Do not hotlink random images from unreliable third-party sources.
-
-If actual images are unavailable, use designed local CSS placeholders or restrained generated artwork where appropriate.
-
-Never create a résumé and claim it contains real personal information when no such information was supplied.
-
-## 21. Data-Driven Rendering Rules
-
-This requirement applies across every section.
-
-1. All portfolio content comes from the JSON data layer.
-2. React components are responsible only for layout, presentation, and interaction.
-3. Repeated items are rendered from arrays using map().
-4. Optional fields are conditionally rendered.
-5. Empty arrays are handled gracefully.
-6. IDs or stable keys are used for repeated records.
-7. JSON files must be valid JSON, not JavaScript objects.
-8. No personal data is duplicated unnecessarily across files.
-9. Navigation configuration must correspond to actual sections.
-10. The README must explain where each type of content is maintained.
-
-Do not place personal data inside component constants as a workaround.
-
-## 22. Testing and Verification
-
-After implementation:
-
-1. Install any required dependencies.
-2. Run npm run build.
-3. Resolve all build errors.
-4. Run the development server and inspect the finished page if browser tools are available.
-5. Check navigation and internal section links.
-6. Test the mobile menu.
-7. Test the project category filter if implemented.
-8. Verify missing images and optional fields.
-9. Verify all JSON files parse successfully.
-10. Check for horizontal overflow and obvious responsive issues.
-11. Check browser console errors if browser inspection is available.
-12. Confirm the website works as a static React application.
-
-Do not claim a test passed unless it was actually run.
-
-If browser inspection tools are unavailable, perform the available build and static checks and clearly state which checks were not performed.
-
-## 23. README Documentation
-
-Create a comprehensive README.md containing:
-
-- Project overview
-- Technology stack
-- Prerequisites
-- Installation steps
-- How to start the development server
-- How to build for production
-- Explanation of the project folder structure
-- Description of each JSON data file
-- How to add a new project
-- How to add a new skill
-- How to add education, experience, and achievements
-- How to replace the profile image
-- How to add or replace the résumé
-- How to configure social links
-- How to hide optional sections
-- How to deploy to Vercel, Netlify, or GitHub Pages
-- Notes about static hosting and SPA routing if applicable
-
-The README must match the actual implementation.
-
-## 24. Final Acceptance Criteria
-
-The project is complete only when:
-
-- The application runs successfully using npm run dev.
-- The production build succeeds using npm run build.
-- The portfolio has a polished, professional dark theme.
-- All required sections are implemented.
-- Content is maintained in separate JSON files.
-- Components are reusable and well organized.
-- Multiple projects and records render dynamically.
-- Optional content is handled gracefully.
-- Responsive layouts are implemented.
-- Accessibility fundamentals are in place.
-- No fake personal information or achievements are presented as real.
-- There are no unnecessary backend dependencies.
-- The README provides practical customization instructions.
-
-## 25. Final Execution Instructions
-
-Work directly in the existing project.
-
-First inspect the repository. Then implement the entire portfolio, including the JSON data files, reusable components, styling, assets or fallbacks, metadata, and README.
-
-Do not stop after creating a plan or showing sample code.
-
-Do not ask me to provide personal details before implementing the design. Use clearly marked placeholders that I can replace later.
-
-Make reasonable design decisions independently. Prioritize professional visual quality, maintainability, responsiveness, and a clean developer experience.
-
-When finished, provide a concise implementation summary explaining:
-1. What was created.
-2. The final folder structure.
-3. Which JSON files I should edit first.
-4. How to run the website.
-5. How to replace images and add my résumé.
-6. Whether the production build succeeded.
-7. Any remaining setup tasks or checks that still need attention.
+- Subtle section entrance animations
+- Hover transitions for project cards
+- A restrained animated hero illustration
+- Optional typing animation for professional role descriptions
+- Mobile navigation interactions
+- Active navigation states if practical
+
+Prefer CSS transitions, Intersection Observer where appropriate, or an already-installed animation library.
+
+Check whether Framer Motion or Motion is already installed before adding a new dependency.
+
+Support prefers-reduced-motion. Do not allow animations to obstruct reading, keyboard navigation, or page performance.
+
+## 8. Code Quality and Performance
+
+- Use TypeScript consistently.
+- Follow the existing ESLint configuration.
+- Create maintainable, reusable components.
+- Avoid unnecessary dependencies.
+- Optimize images and prevent layout shifts.
+- Add meaningful alt text.
+- Implement visible focus states and keyboard accessibility.
+- Ensure external links behave appropriately.
+- Avoid horizontal overflow.
+- Avoid console errors and broken links.
+- Keep components reasonably small and understandable.
+- Ensure the site builds successfully.
+
+Do not add fake testimonials, client reviews, counters, certifications, or employment records.
+
+## 9. SEO and Metadata
+
+Since I have a background in SEO, implement strong technical SEO fundamentals:
+
+- Meaningful page title and meta description
+- Canonical URL only if the correct production URL is known
+- Open Graph metadata
+- Appropriate heading hierarchy
+- Descriptive image alt text
+- Favicon using an existing asset or a simple custom brand mark
+- Semantic page structure
+- Social sharing metadata
+- Sitemap and robots.txt if the deployment setup supports them
+
+Do not add misleading structured data or claim ratings, reviews, or credentials that are not verified.
+
+## 10. Final Implementation and Verification
+
+Work directly in the existing codebase.
+
+Follow this workflow:
+
+1. Inspect the project and summarize the existing architecture.
+2. Identify reusable components and required changes.
+3. Implement the complete portfolio.
+4. Add and populate the separate JSON files.
+5. Integrate the responsive layout and hero animation.
+6. Run the available lint and build scripts.
+7. Fix errors introduced by the implementation.
+8. Test important mobile and desktop layouts where tooling permits.
+9. Verify internal navigation, project links, and contact interactions.
+10. Provide a concise summary of the completed work, modified files, and any remaining manual steps.
+
+Do not stop after producing a design plan or mockup. Implement the working website in the existing project.
+
+**Final objective:** Deliver a polished, recruiter-friendly, dark-themed portfolio that communicates my identity as a Full-Stack Web Developer, showcases my projects and technical stack, highlights my SEO background and entrepreneurial ventures, and remains easy to maintain through separate JSON files.

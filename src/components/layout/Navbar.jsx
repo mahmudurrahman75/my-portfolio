@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Action button & Mobile toggle */}
         <div className="nav-actions">
-          {hasResume && (
+          {hasResume ? (
             <Button
               variant="outline"
               size="sm"
@@ -88,6 +88,16 @@ export default function Navbar() {
               className="nav-resume-btn"
             >
               Résumé
+            </Button>
+          ) : (
+            <Button
+              variant="primary"
+              size="sm"
+              href="#contact"
+              icon={<DynamicIcon name="Send" size={14} />}
+              className="nav-contact-btn"
+            >
+              Let's Talk
             </Button>
           )}
 
@@ -121,7 +131,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {hasResume && (
+        {hasResume ? (
           <Button
             variant="primary"
             size="md"
@@ -132,6 +142,17 @@ export default function Navbar() {
             style={{ marginTop: '1rem', width: '100%' }}
           >
             Download Résumé
+          </Button>
+        ) : (
+          <Button
+            variant="primary"
+            size="md"
+            href="#contact"
+            icon={<DynamicIcon name="Send" size={16} />}
+            onClick={handleNavClick}
+            style={{ marginTop: '1rem', width: '100%' }}
+          >
+            Let's Talk
           </Button>
         )}
       </div>

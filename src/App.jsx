@@ -4,32 +4,50 @@ import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
-import Projects from './components/sections/Projects';
 import Experience from './components/sections/Experience';
+import Entrepreneurship from './components/sections/Entrepreneurship';
+import Projects from './components/sections/Projects';
 import Education from './components/sections/Education';
-import Achievements from './components/sections/Achievements';
 import Contact from './components/sections/Contact';
+import { useScrollReveal } from './hooks/useScrollReveal';
 
 export default function App() {
+  // Activate scroll-triggered animations on view
+  useScrollReveal();
+
   return (
     <div className="portfolio-app">
       <Navbar />
       <main id="main-content">
         <Hero />
         <div className="section-divider" aria-hidden="true" />
-        <About />
+        <div className="reveal-on-scroll">
+          <About />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Skills />
+        <div className="reveal-on-scroll">
+          <Skills />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Projects />
+        <div className="reveal-on-scroll">
+          <Experience />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Experience />
+        <div className="reveal-on-scroll">
+          <Entrepreneurship />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Education />
+        <div className="reveal-on-scroll">
+          <Projects />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Achievements />
+        <div className="reveal-on-scroll">
+          <Education />
+        </div>
         <div className="section-divider" aria-hidden="true" />
-        <Contact />
+        <div className="reveal-on-scroll">
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>

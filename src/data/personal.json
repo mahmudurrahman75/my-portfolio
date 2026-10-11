@@ -1,19 +1,18 @@
 {
   "fullName": "Md. Mahmudur Rahman",
-  "title": "Software Engineer",
-  "tagline": "Building resilient, performant, and elegant digital systems.",
-  "location": "San Francisco, CA (Open to Remote)",
+  "title": "Full-Stack Web Developer",
+  "tagline": "Building modern, responsive, scalable, and user-focused web applications with contemporary frontend and backend technologies.",
+  "location": "Mohammadpur, Dhaka, Bangladesh",
   "profileImage": "/images/profile.svg",
-  "availabilityStatus": "Available for full-time opportunities",
-  "yearsOfExperience": "3+ years",
-  "heroIntroduction": "I craft reliable full-stack applications, scalable backend microservices, and interactive web experiences with a focus on code quality and user delight.",
+  "availabilityStatus": "Available for Web Development & Engineering Opportunities",
+  "heroIntroduction": "I build modern web applications that combine thoughtful user experiences with reliable backend architecture. With experience across React, Next.js, Node.js, PHP, and Laravel, and a background in Civil Engineering and entrepreneurship, I enjoy turning complex ideas into practical digital solutions.",
   "primaryCta": {
-    "text": "View Projects",
+    "text": "View My Projects",
     "href": "#projects"
   },
   "secondaryCta": {
-    "text": "Get in Touch",
+    "text": "Contact Me",
     "href": "#contact"
   },
-  "resumePath": "/documents/resume.pdf"
+  "resumePath": ""
 }

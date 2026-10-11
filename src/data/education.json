@@ -1,25 +1,53 @@
 [
   {
-    "id": "edu-1",
-    "institution": "State University of California",
+    "id": "edu-bsc",
     "degree": "Bachelor of Science",
-    "fieldOfStudy": "Computer Science",
-    "startDate": "2019",
-    "endDate": "2023",
-    "location": "California, USA",
-    "gpa": "3.85 / 4.0",
-    "coursework": [
-      "Data Structures & Algorithms",
-      "Computer Systems & Architecture",
-      "Database Systems",
-      "Operating Systems",
-      "Software Engineering",
-      "Computer Networks"
-    ],
+    "fieldOfStudy": "Civil Engineering",
+    "institution": "University of Asia Pacific (UAP)",
+    "location": "Dhaka, Bangladesh",
+    "completionYear": "2017",
+    "startDate": "2013",
+    "endDate": "2017",
+    "isPrimary": true,
     "highlights": [
-      "Dean's Honor List for 6 consecutive semesters",
-      "Undergraduate Teaching Assistant for Intro to Object-Oriented Programming",
-      "Senior Capstone Project: Real-time Distributed File Synchronizer"
+      "Graduated with comprehensive engineering grounding in structural design, systems modeling, mathematics, and project management.",
+      "Developed rigorous analytical and problem-solving fundamentals that inform my web architecture and software development."
+    ],
+    "coursework": [
+      "Engineering Mechanics",
+      "Structural Analysis",
+      "Applied Mathematics",
+      "Project Planning & Management"
+    ]
+  },
+  {
+    "id": "edu-hsc",
+    "degree": "Higher Secondary Certificate (HSC)",
+    "fieldOfStudy": "Science",
+    "institution": "Government Science College",
+    "location": "Dhaka, Bangladesh",
+    "board": "Dhaka Board",
+    "completionYear": "2012",
+    "startDate": "2010",
+    "endDate": "2012",
+    "gpa": "4.30 / 5.00",
+    "highlights": [
+      "Rigorous pre-university science curriculum focusing on Physics, Chemistry, and Advanced Mathematics."
+    ]
+  },
+  {
+    "id": "edu-ssc",
+    "degree": "Secondary School Certificate (SSC)",
+    "fieldOfStudy": "Science",
+    "institution": "Mohammadpur Government High School",
+    "location": "Dhaka, Bangladesh",
+    "board": "Dhaka Board",
+    "completionYear": "2010",
+    "startDate": "2008",
+    "endDate": "2010",
+    "gpa": "5.00 / 5.00 (Golden GPA)",
+    "highlights": [
+      "Achieved maximum grade point average (GPA 5.00/5.00) in Science group."
     ]
   }
 ]

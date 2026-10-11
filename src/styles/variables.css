@@ -1,22 +1,23 @@
 :root {
-  /* Core Colors */
-  --color-bg: #0B0D12;
-  --color-surface: #121620;
-  --color-surface-elevated: #191F2B;
-  --color-surface-card: #141924;
-  --color-surface-card-hover: #1A2130;
+  /* Core Colors - Professional Dark Theme with Sage/Teal Accent */
+  --color-bg: #0B0F14;
+  --color-surface: #111820;
+  --color-surface-elevated: #151E28;
+  --color-surface-card: #151E28;
+  --color-surface-card-hover: #1B2633;
   
   /* Text */
-  --color-text-primary: #F4F6FA;
-  --color-text-secondary: #9DA8BA;
-  --color-text-muted: #64748B;
+  --color-text-primary: #F3F4F6;
+  --color-text-secondary: #9CA3AF;
+  --color-text-muted: #6B7280;
   
   /* Accent & Brand */
-  --color-accent: #6EA8FE;
-  --color-accent-hover: #8AB8FE;
-  --color-accent-subtle: rgba(110, 168, 254, 0.12);
-  --color-accent-glow: rgba(110, 168, 254, 0.22);
-  --color-accent-gradient: linear-gradient(135deg, #6EA8FE 0%, #A78BFA 100%);
+  --color-accent: #70B7A1;
+  --color-accent-hover: #85CBB5;
+  --color-accent-secondary: #1D6670;
+  --color-accent-subtle: rgba(112, 183, 161, 0.12);
+  --color-accent-glow: rgba(112, 183, 161, 0.22);
+  --color-accent-gradient: linear-gradient(135deg, #70B7A1 0%, #1D6670 100%);
   
   /* System / Status */
   --color-success: #10B981;
@@ -25,9 +26,9 @@
   --color-info: #38BDF8;
 
   /* Borders & Dividers */
-  --color-border: #232B3B;
-  --color-border-hover: #37445C;
-  --color-border-focus: #6EA8FE;
+  --color-border: #1F2A37;
+  --color-border-hover: #2E3E50;
+  --color-border-focus: #70B7A1;
 
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -38,22 +39,22 @@
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
-  --radius-xl: 24px;
+  --radius-xl: 20px;
   --radius-full: 9999px;
 
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 16px -2px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 12px 32px -4px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 24px -2px rgba(110, 168, 254, 0.25);
+  --shadow-glow: 0 0 24px -2px rgba(112, 183, 161, 0.2);
 
   /* Transitions */
   --transition-fast: 150ms ease;
   --transition-normal: 250ms ease;
-  --transition-smooth: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
 
   /* Layout */
   --container-max: 1200px;
   --header-height: 72px;
-  --section-spacing: clamp(5rem, 8vw, 7.5rem);
+  --section-spacing: clamp(4.5rem, 7vw, 6.5rem);
 }

@@ -29,9 +29,9 @@ export default function Projects() {
     <section id="projects" className="section">
       <Container>
         <SectionHeading
-          badge="Featured Engineering"
-          title="Projects & Systems"
-          description="A selection of full-stack platforms, developer tools, and distributed services I have designed and built."
+          badge="Featured Work"
+          title="Web Applications & Projects"
+          description="Featured repositories covering full-stack systems, Laravel backends, Next.js applications, and responsive web projects."
         />
 
         {/* Category Filters */}

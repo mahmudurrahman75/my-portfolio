@@ -1,41 +1,59 @@
 [
   {
-    "id": "exp-1",
-    "company": "Apex Software Labs",
-    "title": "Software Engineer",
-    "employmentType": "Full-time",
-    "location": "San Francisco, CA (Hybrid)",
-    "startDate": "2023",
-    "endDate": "Present",
-    "isCurrent": true,
-    "responsibilities": [
-      "Engineered reusable UI components and core dashboard interfaces supporting 120k+ monthly active users.",
-      "Designed and maintained backend microservices using Node.js and PostgreSQL, improving API response times by 35%.",
-      "Collaborated with product designers to implement an accessible, compliant WCAG 2.1 AA design system."
-    ],
-    "accomplishments": [
-      "Spearheaded database query optimization reducing P95 latency from 420ms to 110ms.",
-      "Mentored 2 junior engineers and established automated end-to-end testing in CI pipelines."
-    ],
-    "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS", "Git"]
-  },
-  {
-    "id": "exp-2",
-    "company": "NovaTech Solutions",
-    "title": "Frontend Engineer Intern",
-    "employmentType": "Internship",
-    "location": "Remote",
+    "id": "train-3",
+    "company": "BITM (BASIS Institute of Technology & Management)",
+    "title": "PHP & Laravel Web Application Development",
+    "employmentType": "Professional Training",
+    "location": "Dhaka, Bangladesh",
     "startDate": "2022",
-    "endDate": "2023",
+    "endDate": "2022",
     "isCurrent": false,
     "responsibilities": [
-      "Developed interactive client portal features using React and modern CSS.",
-      "Migrated legacy monolithic frontend code to modular component-based architecture.",
-      "Integrated RESTful endpoints and optimized frontend asset bundles to reduce initial load time by 28%."
+      "Completed comprehensive curriculum in server-side web development with object-oriented PHP and Laravel framework.",
+      "Built database-backed CRUD applications, authentication layers, RESTful API structures, and relational MySQL schemas.",
+      "Learned MVC architecture, routing, middleware, blade templating, and modern Laravel ecosystems."
     ],
     "accomplishments": [
-      "Authored unit test suites achieving 88% code coverage for the billing module."
+      "Developed modular Laravel projects and gained proficiency with backend admin tooling."
     ],
-    "technologies": ["React", "JavaScript", "HTML5/CSS3", "REST APIs", "Jest", "Git"]
+    "technologies": ["PHP", "Laravel", "MySQL", "MVC", "REST APIs", "Git"]
+  },
+  {
+    "id": "train-2",
+    "company": "Programming Hero",
+    "title": "Complete Web Development (MERN Stack)",
+    "employmentType": "Professional Training",
+    "location": "Online / Dhaka, Bangladesh",
+    "startDate": "2020",
+    "endDate": "2020",
+    "isCurrent": false,
+    "responsibilities": [
+      "Completed intensive hands-on training spanning modern JavaScript (ES6+), React, Next.js, Node.js, Express, and MongoDB.",
+      "Constructed full-stack single-page applications, responsive interfaces, and client-server REST integrations.",
+      "Implemented JWT authentication, state management, and database CRUD operations."
+    ],
+    "accomplishments": [
+      "Built multiple full-stack web applications and gained solid frontend and backend JavaScript experience."
+    ],
+    "technologies": ["JavaScript (ES6+)", "React", "Next.js", "Node.js", "MongoDB", "Express.js", "Tailwind/CSS3"]
+  },
+  {
+    "id": "train-1",
+    "company": "Digital Marketing & SEO Academy",
+    "title": "Affiliate Marketing & Search Engine Optimization (SEO)",
+    "employmentType": "Professional Training",
+    "location": "Dhaka, Bangladesh",
+    "startDate": "2015",
+    "endDate": "2015",
+    "isCurrent": false,
+    "responsibilities": [
+      "Trained in organic on-page and off-page SEO methodologies, keyword research, competitor analysis, and content optimization.",
+      "Studied search engine algorithms, technical crawling fundamentals, site speed optimization, and digital affiliate models.",
+      "Applied SEO best practices to improve website discoverability, user engagement, and web performance."
+    ],
+    "accomplishments": [
+      "Developed a foundational understanding of search discoverability that directly enhances modern web development."
+    ],
+    "technologies": ["Technical SEO", "Keyword Research", "On-Page SEO", "Google Analytics", "Affiliate Strategy"]
   }
 ]

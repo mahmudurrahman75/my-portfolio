@@ -12,9 +12,9 @@ export default function Experience() {
     <section id="experience" className="section">
       <Container>
         <SectionHeading
-          badge="Career Journey"
-          title="Professional Experience"
-          description="Track record of engineering impact, full-stack contributions, and system optimizations."
+          badge="Learning Journey"
+          title="Training & Technical Milestones"
+          description="Key training programs and milestone courses completed across web engineering, modern JavaScript, PHP/Laravel, and SEO."
         />
 
         <div className="experience-timeline">
@@ -31,7 +31,7 @@ export default function Experience() {
 
                   <div className="exp-badge-group">
                     <span className="exp-date-badge">
-                      {item.startDate} — {item.endDate || (item.isCurrent ? 'Present' : '')}
+                      {item.startDate === item.endDate ? item.startDate : `${item.startDate} — ${item.endDate || (item.isCurrent ? 'Present' : '')}`}
                     </span>
                     {item.employmentType && (
                       <span className="exp-type-badge">{item.employmentType}</span>
@@ -58,7 +58,7 @@ export default function Experience() {
                   <div className="exp-accomplishments-box">
                     {item.accomplishments.map((acc, idx) => (
                       <p key={idx} className="exp-accomplishment-text">
-                        <strong>Impact:</strong> {acc}
+                        <strong>Outcome:</strong> {acc}
                       </p>
                     ))}
                   </div>

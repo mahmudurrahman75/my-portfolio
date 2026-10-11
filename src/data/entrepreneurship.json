@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ilabs360",
+    "name": "iLabs360",
+    "role": "Co-Founder",
+    "industry": "Technology and Software Solutions",
+    "location": "Mohammadpur, Dhaka, Bangladesh",
+    "status": "Active Initiative",
+    "description": "Technology venture focused on providing digital solutions, web application design, and modern IT services. Involved in strategic planning, client requirement analysis, and tech-driven execution.",
+    "focusAreas": [
+      "Custom Web Development",
+      "Digital Transformation",
+      "Software Problem Solving"
+    ]
+  },
+  {
+    "id": "shopnoneer",
+    "name": "Shopnoneer",
+    "role": "Co-Founder",
+    "industry": "Real Estate and Property Services",
+    "location": "Mohammadpur, Dhaka, Bangladesh",
+    "status": "Active Initiative",
+    "description": "Property services and real estate venture delivering verified property consultancy and housing solutions. Contributing to business strategy, customer engagement, and digital presence.",
+    "focusAreas": [
+      "Property Services & Consultancy",
+      "Real Estate Solutions",
+      "Business Operations"
+    ]
+  }
+]

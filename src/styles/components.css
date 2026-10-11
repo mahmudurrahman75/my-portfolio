@@ -1356,3 +1356,161 @@
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
+
+/* ==========================================================================
+   Entrepreneurship Section
+   ========================================================================== */
+.entrepreneurship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.75rem;
+}
+
+@media (max-width: 640px) {
+  .entrepreneurship-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.venture-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.venture-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--color-accent-gradient);
+  opacity: 0.8;
+}
+
+.venture-card:hover {
+  border-color: var(--color-border-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.venture-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.venture-branding {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.venture-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.venture-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 0.15rem;
+}
+
+.venture-industry {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.venture-role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-full);
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.venture-location {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.venture-desc {
+  font-size: 0.94rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.venture-focus-box {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.venture-focus-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.venture-focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+/* Primary Degree Highlight Card */
+.primary-degree-card {
+  border-color: rgba(112, 183, 161, 0.4);
+  box-shadow: 0 4px 20px -2px rgba(112, 183, 161, 0.1);
+  position: relative;
+}
+
+.primary-degree-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: rgba(112, 183, 161, 0.1);
+  border: 1px solid rgba(112, 183, 161, 0.25);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-xs);
+  margin-bottom: 0.75rem;
+  width: fit-content;
+}
+
