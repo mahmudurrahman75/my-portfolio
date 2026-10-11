@@ -33,8 +33,17 @@
     }
   ],
   "highlights": [
-    { "label": "Academic Foundation", "value": "B.Sc Civil Eng." },
-    { "label": "Stack Scope", "value": "MERN + Laravel" },
-    { "label": "Entrepreneurship", "value": "Co-Founder (2)" }
+    {
+      "label": "Academic Foundation",
+      "value": "B.Sc Civil Eng."
+    },
+    {
+      "label": "Stack Scope",
+      "value": "MERN + Laravel"
+    },
+    {
+      "label": "Entrepreneurship",
+      "value": "Co-Founder (2)"
+    }
   ]
 }

@@ -5,13 +5,30 @@
   "defaultSeoDescription": "Explore full-stack web applications, technical skill sets, entrepreneurial ventures, training timeline, and contact information for Md. Mahmudur Rahman.",
   "copyrightName": "Md. Mahmudur Rahman",
   "navLinks": [
-    { "id": "about", "label": "About" },
-    { "id": "skills", "label": "Skills" },
-    { "id": "experience", "label": "Learning Journey" },
-    { "id": "entrepreneurship", "label": "Entrepreneurship" },
-    { "id": "projects", "label": "Projects" },
-    { "id": "education", "label": "Education" },
-    { "id": "contact", "label": "Contact" }
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "experience",
+      "label": "Learning Journey"
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "Entrepreneurship"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
   ],
   "theme": {
     "defaultAccent": "#70B7A1",

@@ -3,41 +3,109 @@
     "category": "Frontend Development",
     "description": "Interactive, responsive, and accessible user interfaces built with modern standards.",
     "skills": [
-      { "name": "JavaScript", "featured": true, "icon": "Code" },
-      { "name": "TypeScript", "featured": true, "icon": "FileCode" },
-      { "name": "React", "featured": true, "icon": "Atom" },
-      { "name": "Next.js", "featured": true, "icon": "Layers" },
-      { "name": "HTML5", "featured": false, "icon": "Code2" },
-      { "name": "CSS3", "featured": false, "icon": "Palette" },
-      { "name": "Responsive Web Design", "featured": true, "icon": "Eye" }
+      {
+        "name": "JavaScript",
+        "featured": true,
+        "icon": "Code"
+      },
+      {
+        "name": "TypeScript",
+        "featured": true,
+        "icon": "FileCode"
+      },
+      {
+        "name": "React",
+        "featured": true,
+        "icon": "Atom"
+      },
+      {
+        "name": "Next.js",
+        "featured": true,
+        "icon": "Layers"
+      },
+      {
+        "name": "HTML5",
+        "featured": false,
+        "icon": "Code2"
+      },
+      {
+        "name": "CSS3",
+        "featured": false,
+        "icon": "Palette"
+      },
+      {
+        "name": "Responsive Web Design",
+        "featured": true,
+        "icon": "Eye"
+      }
     ]
   },
   {
     "category": "Backend Development",
     "description": "Server runtimes, application logic, and admin frameworks for scalable web services.",
     "skills": [
-      { "name": "Node.js", "featured": true, "icon": "Server" },
-      { "name": "PHP", "featured": true, "icon": "Terminal" },
-      { "name": "Laravel", "featured": true, "icon": "Cpu" },
-      { "name": "Filament", "featured": true, "icon": "Boxes" }
+      {
+        "name": "Node.js",
+        "featured": true,
+        "icon": "Server"
+      },
+      {
+        "name": "PHP",
+        "featured": true,
+        "icon": "Terminal"
+      },
+      {
+        "name": "Laravel",
+        "featured": true,
+        "icon": "Cpu"
+      },
+      {
+        "name": "Filament",
+        "featured": true,
+        "icon": "Boxes"
+      }
     ]
   },
   {
     "category": "Databases",
     "description": "Relational and document storage systems managing data integrity and schemas.",
     "skills": [
-      { "name": "MySQL", "featured": true, "icon": "Database" },
-      { "name": "MongoDB", "featured": true, "icon": "Database" }
+      {
+        "name": "MySQL",
+        "featured": true,
+        "icon": "Database"
+      },
+      {
+        "name": "MongoDB",
+        "featured": true,
+        "icon": "Database"
+      }
     ]
   },
   {
     "category": "SEO & Digital Strategy",
     "description": "Search engine visibility, technical web performance, and digital marketing foundations.",
     "skills": [
-      { "name": "Search Engine Optimization (SEO)", "featured": true, "icon": "Globe" },
-      { "name": "Affiliate Marketing", "featured": false, "icon": "Share2" },
-      { "name": "Technical Problem Solving", "featured": true, "icon": "Workflow" },
-      { "name": "Web Application Development", "featured": true, "icon": "Zap" }
+      {
+        "name": "Search Engine Optimization (SEO)",
+        "featured": true,
+        "icon": "Globe"
+      },
+      {
+        "name": "Affiliate Marketing",
+        "featured": false,
+        "icon": "Share2"
+      },
+      {
+        "name": "Technical Problem Solving",
+        "featured": true,
+        "icon": "Workflow"
+      },
+      {
+        "name": "Web Application Development",
+        "featured": true,
+        "icon": "Zap"
+      }
     ]
   }
 ]
